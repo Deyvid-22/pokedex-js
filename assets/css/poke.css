@@ -1,0 +1,151 @@
+.poke_container{   
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: solid 1px rebeccapurple;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.poke_status {
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(100, 23, 23);
+    background-color: #000;
+}
+
+.poke {
+    width: 100%;    
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    z-index: -1;
+}
+
+#fechar {
+     font-size: 40px;
+     color: white;
+     font-weight: 800;
+     position: absolute;
+     padding: 10px;
+     cursor: pointer;
+}
+
+.poke p {
+    text-align: right;
+    color: #fff;
+    font-size: 30px;
+}
+
+.poke-img {
+    display: flex;
+    justify-content: center;
+}
+
+.poke-img img {
+    width: 150px;
+}
+
+.poke_name, .base_status {
+    color: wheat;
+  text-align: center;
+}
+
+.poke_type {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.types_poke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 16rem;
+}
+
+
+.poke_type .types_poke p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 27px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.status-base {
+    display: grid;
+    justify-content: center;
+}
+
+.state-base {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    position: relative;
+}
+
+.stat-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.bar {
+    display: block;
+    height: 100%;
+    width: 0;
+    transition: width 0.5s;
+}
+
+.hp {background-color: #fc0a0a;}
+.atk{background-color:#ffff00 ;}
+.def{background-color: #1e1ee9;}
+.spd{background-color: #00ffff;}
+.exp{background-color: #1ec01e;}
+
+.stat-value {
+    position: absolute;
+     top: 0;
+     left: 40%;    
+    display: flex;
+    align-items: center;
+    color: #582a2a;
+    font-weight: bold;
+    z-index: 2;
+}
+
+label{
+    color: #fff;
+    margin-right: 10px;
+}
+
+span {
+    display: inline;
+}
+
+button {
+    background-color: #144115;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
