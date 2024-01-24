@@ -2,9 +2,16 @@
 
 Este é um projeto de Pokédex desenvolvido com HTML, CSS e JavaScript, utilizando a API PokeAPI para listar Pokémon.
 
+Foi projetado para ser responsivo em resoluções até 1280x800 pixels. Se você estiver utilizando uma resolução superior, alguns elementos podem não se ajustar adequadamente.
+
 ## Funcionalidades
 
-- Lista uma quantidade específica de Pokémon.
+Lista uma quantidade específica de Pokémon.
+- **Detalhes do Pokémon:** Além da lista de Pokémon, você pode obter dados detalhados, como ataque e defesa.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se deseja contribuir, siga estas etapas...
 
 Link do projeto https://deyvid-22.github.io/pokedex-js/
 
