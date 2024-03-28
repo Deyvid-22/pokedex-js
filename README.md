@@ -9,10 +9,6 @@ Foi projetado para ser responsivo em resoluções até 1280x800 pixels. Se você
 Lista uma quantidade específica de Pokémon.
 - **Detalhes do Pokémon:** Além da lista de Pokémon, você pode obter dados detalhados, como ataque e defesa.
 
-## Contribuição
-
-Contribuições são bem-vindas! Se deseja contribuir, siga estas etapas...
-
 Link do projeto https://deyvid-22.github.io/pokedex-js/
 
 ![mobile](https://github.com/Deyvid-22/pokedex-js/assets/140274792/ee14a932-5606-4a1f-8a01-50caba88a654)
